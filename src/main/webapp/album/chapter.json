@@ -1,0 +1,36 @@
+{
+  "total":"5",
+  "records":"30",
+  "page":"1",
+  "rows":[
+    {
+      "id":"1",
+      "title":"音频1",
+      "src":"梦中的婚礼.mp3",
+      "size":"31MB",
+      "duration":"5分45秒",
+      "upload_time":"2012-12-12"
+    },{
+      "id":"2",
+      "title":"音频2",
+      "src":"童年的回忆.mp3",
+      "size":"31MB",
+      "duration":"5分45秒",
+      "upload_time":"2012-12-12"
+    },{
+      "id":"3",
+      "title":"音频3",
+      "src":"致爱丽丝.mp3",
+      "size":"28MB",
+      "duration":"5分45秒",
+      "upload_time":"2012-12-12"
+    },{
+      "id":"4",
+      "title":"音频4",
+      "src":"秋日私语.mp3",
+      "size":"45MB",
+      "duration":"3分33秒",
+      "upload_time":"2012-12-12"
+    }
+  ]
+}

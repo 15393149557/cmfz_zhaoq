@@ -1,0 +1,28 @@
+{
+  "total":"3",
+  "records":"9",
+  "page":"1",
+  "rows":[
+    {
+      "id":"1",
+      "srcImg":"1.png",
+      "description":"这是个好图片",
+      "status":"1",
+      "uploadTime":"2019-12-02"
+    },
+    {
+      "id":"2",
+      "srcImg":"2.png",
+      "description":"这是个好图片",
+      "status":"0",
+      "uploadTime":"2019-12-02"
+    },
+    {
+      "id":"3",
+      "srcImg":"3.png",
+      "description":"这是个好图片",
+      "status":"1",
+      "uploadTime":"2019-12-02"
+    }
+  ]
+}

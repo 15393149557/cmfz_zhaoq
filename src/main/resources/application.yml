@@ -1,0 +1,30 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /cmfz
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/cmfz
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  servlet:
+    multipart:
+      max-request-size: 102400000    #一次请求内文件上传的总大小  默认10M
+      max-file-size:  102400000      #单个文件上传的大小   默认1M
+  redis:
+    database: 1
+    port: 7000
+    host: 192.168.125.209
+mybatis:
+  type-aliases-package: com.baizhi.zq.entity
+  mapper-locations: classpath:com/baizhi/zq/mapper/*Mapper.xml
