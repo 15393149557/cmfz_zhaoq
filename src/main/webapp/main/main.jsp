@@ -152,6 +152,9 @@
                             <div class="panel-body">
                                 <div class="btn btn-warning"><a href="javascript:$('#rightPage').load('${path}/article/article.jsp')"> 文章展示</a></div>
                             </div><br/>
+                            <div class="panel-body">
+                                <div class="btn btn-warning"><a href="javascript:$('#rightPage').load('${path}/article/queryArticle.jsp')"> 文章查询</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>

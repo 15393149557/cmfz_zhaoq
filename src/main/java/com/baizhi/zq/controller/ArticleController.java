@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import java.util.List;
 import java.util.Map;
 
 @Controller
 @RequestMapping("/article")
 public class ArticleController {
+
 
     @Resource
     ArticleService articleService;
@@ -50,4 +52,13 @@ public class ArticleController {
         System.out.println(article);
         articleService.update(article);
     }
+
+    @ResponseBody
+    @RequestMapping("/elasticSearch")
+    public List<Article> queryAllByElastic(String keyword){
+        System.out.println("aaaaaaaaaaaaa");
+        List<Article> articles = articleService.queryAllByElastics(keyword);
+        return articles;
+    }
+
 }

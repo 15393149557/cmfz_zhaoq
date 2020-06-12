@@ -16,4 +16,10 @@ public interface ArticleService {
 
     //用于接口的方法
     public List<Article>  queryAllArticle();
+
+    //用elasticSearch查询出数据未做高亮
+    public List<Article> queryAllByElastic(String keyword);
+
+    //用elasticSearch查询出数据做高亮
+    public List<Article> queryAllByElastics(String keyword);
 }

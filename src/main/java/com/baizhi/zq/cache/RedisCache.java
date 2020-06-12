@@ -20,7 +20,7 @@ import java.util.Set;
 
 //@Configuration
 //@Aspect
-public class RedisCache {
+public class  RedisCache {
 
     @Resource
     RedisTemplate redisTemplate;
